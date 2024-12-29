@@ -16,9 +16,9 @@ jobs:
     - name: Log in to Azure
       run: |
         az login --service-principal \
-          --username $"{{ secrets.APPID }}" \
-          --password $"{{ secrets.PASSWORD }}" \
-          --tenant $"{{ secrets.TENANT }}"
+          --username ${{ secrets.APPID }} \
+          --password ${{ secrets.PASSWORD }} \
+          --tenant ${{ secrets.TENANT }}
 
     - name: Create Azure Function App
       run: |
