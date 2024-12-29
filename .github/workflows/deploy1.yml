@@ -28,5 +28,5 @@ jobs:
           --runtime python \
           --functions-version 4 \
           --name beyonce-api-function \
-          --storage-account beyoncestorage
+          --storage-account beyoncestorage \
           --os-type Linux
