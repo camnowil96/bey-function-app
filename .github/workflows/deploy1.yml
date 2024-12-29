@@ -29,3 +29,4 @@ jobs:
           --functions-version 4 \
           --name beyonce-api-function \
           --storage-account beyoncestorage
+          --os-type Linux
